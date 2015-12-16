@@ -13,7 +13,7 @@
 #    3a) Change your PS1 to call __git_ps1 as
 #        command-substitution:
 #        Bash: PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
-#        Bash: PS1='[\[\e]0;\w\a\]\n\[\e[32m\]\u@\h  \[\e[33m\]\w\[\e[0m\]$(__git_ps1 "  \[\e[31m\](%s)")\[\e[0m\]\n\$ '
+#        Bash: PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h  \[\e[33m\]\w\[\e[0m\]$(__git_ps1 "  \[\e[31m\](%s)")\[\e[0m\]\n\$ '
 #
 #        ZSH:  setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
 #        the optional argument will be used as format string.
